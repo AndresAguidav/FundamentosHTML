@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Educación</title>
+    <style>
+      table {font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 60%;}
+      td, th {border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;}
+      tr:nth-child(even) {background-color: #dddddd;}
+    </style>
+  </head>
+  <body>
+    <svg width="400" height="180">
+      <rect x="12" y="17" rx="20" ry="20" width="300" height="150" style="fill:blue;stroke:black;stroke-width:5;opacity:0.5" />
+      <text fill="#ffffff" font-size="45" font-family="Arial Narrow" x="84" y="86">ANDRES</text>
+      <text fill="#ffffff" font-size="45" font-family="Arial Narrow" x="80" y="130">AGUILAR</text>
+    </svg>
+    <h1>HOJA DE VIDA</h1>
+      <h2>DATOS PERSONALES</h2>
+        <h3>Nombre: <em>Germán Andrés Aguilar Dávila</em></h3>
+        <h3>Fecha y lugar de Nacimiento: <em>Diciembre 24 de 1984, Bogotá D.C.</em></h3>
+      <p>
+        <a href="../HDVAndres/index.html"> INICIO </a> &nbsp
+        <a href="../HDVAndres/educacion.html">EDUCACIÓN</a> &nbsp
+        <a href="../HDVAndres/experiencia.html">EXPERIENCIA</a> &nbsp
+      </p>
+      <HR size="2" width="60%" align="left">
+      <h2>EDUCACIÓN</h2>
+      <table>
+        <tr>
+          <th><center>Año</center></th>
+          <th><center>Institución</center></th>
+          <th><center>Lugar</center></th>
+          <th><center>¿Culminó?</center></th>
+        </tr>
+        <tr>
+          <td>2001</td>
+          <td>Colegio Divina Pastora</td>
+          <td>Riohacha</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2010</td>
+          <td>Universidad de La Guajira</td>
+          <td>Riohacha</td>
+          <td>Aún no</td>
+        </tr>
+        <tr>
+          <td>2014</td>
+          <td>Seminario Reformado Latinoamericano</td>
+          <td>Medellín</td>
+          <td>Sí</td>
+        </tr>
+      </table><br>
+      <form>
+        <h3>Agregar Estudios</h3>
+        <p>
+          <label>Año:</label>
+          <input list="año">
+          <datalist id="año">
+            <option value="2014"></option>
+            <option value="2015"></option>
+            <option value="2016"></option>
+            <option value="2017"></option>
+            <option value="2018"></option>
+          </datalist>
+        </p>
+        <p>
+          <label>Institución:</label>
+          <input type="text" name="institución" required>
+        </p>
+        <p>
+          <label>Lugar:</label>
+          <input type="text" name="institución" required>
+        </p>
+        <p>
+          <label>¿Culminó?</label>
+          <input type="radio" name="si" value="si" required> Sí
+          <input type="radio" name="no" value="no" required> No
+        </p>
+        <p>
+          <input type="submit" name="Envíar" value="Envíar">
+        </p> <br>
+      </form>
+  </body>
+  <footer>
+    <HR size="2" width="60%" align="left">
+    <h4>CONTACTO</h4>
+    <ul>
+      <li>Celular:300 557 7883</li>
+      <li>Dirección: Calle 28A #4A-10</li>
+      <li>E-mail:andresaguidav@hotmail.com</li>
+    </ul>
+    <p>© 2017 Derechos Reservados</p>
+  </footer>
+</html>
